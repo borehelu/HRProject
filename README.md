@@ -46,7 +46,7 @@ To access protected endpoints, you need to obtain an access token by sending a P
 
 
 ### Employee Endpoints:
-- GET /api/v1/employees/: List all employees.
+- GET /api/v1/employees/ List all employees.
 - POST /api/v1/employees/: Create a new employee.
 - GET /api/v1/employees/<employee-id>/: Retrieve a specific employee.
 - PUT /api/v1/employees/<employee-id>/: Update a specific employee.
