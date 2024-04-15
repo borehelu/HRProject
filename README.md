@@ -53,25 +53,25 @@ To access protected endpoints, you need to obtain an access token by sending a P
 - DELETE /api/v1/employees/employee-id Delete a specific employee.
 
 ### Leave Types Endpoints
-- GET /api/v1/leave-types/: List all leave types.
-- POST /api/v1/leave-types/: Create a new leave type.
-- GET /api/v1/leave-types/<leave-type-id>/: Retrieve a specific leave type.
-- PUT /api/v1/leave-types/<leave-type-id>/: Update a specific leave type.
-- DELETE /api/v1/leave-types/<leave-type-id>/: Delete a specific leave type.
+- GET /api/v1/leave-types: List all leave types.
+- POST /api/v1/leave-types: Create a new leave type.
+- GET /api/v1/leave-types/leave-type-id Retrieve a specific leave type.
+- PUT /api/v1/leave-types/leave-type-id Update a specific leave type.
+- DELETE /api/v1/leave-types/leave-type-id: Delete a specific leave type.
 
 ### Leave Balances Endpoints
-- GET /api/v1/leave-balances/: List all leave balances.
+- GET /api/v1/leave-balances: List all leave balances.
 - POST /api/v1/leave-balances Create a new leave balance.
-- GET /api/v1/leave-balances/<leave-balance-id>/: Retrieve a specific leave balance.
-- PUT /api/v1/leave-balances/<leave-balance-id>/: Update a specific leave balance.
-- DELETE /api/v1/leave-balances/<leave-balance-id>/: Delete a specific leave balance.
+- GET /api/v1/leave-balances/leave-balance-id Retrieve a specific leave balance.
+- PUT /api/v1/leave-balances/leave-balance-id Update a specific leave balance.
+- DELETE /api/v1/leave-balances/leave-balance-id Delete a specific leave balance.
 
 ### Leave Requests Endpoints
-- GET /api/v1/leave-requests/: List all leave requests.
+- GET /api/v1/leave-requests List all leave requests.
 - POST /api/v1/leave-requests Create a new leave request.
-- GET /api/v1/leave-requests/<leave-request-id>/: Retrieve a specific leave request.
-- PUT /api/v1/leave-requests/<leave-request-id>/: Update a specific leave request.
-- DELETE /api/v1/leave-requests/<leave-request-id>/: Delete a specific leave request.
+- GET /api/v1/leave-requests/leave-request-id Retrieve a specific leave request.
+- PUT /api/v1/leave-requests/leave-request-id Update a specific leave request.
+- DELETE /api/v1/leave-requests/leave-request-id Delete a specific leave request.
 
 ### Sample Requests
 1. Retrieve all leave requests
