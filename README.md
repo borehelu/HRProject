@@ -74,12 +74,12 @@ To access protected endpoints, you need to obtain an access token by sending a P
 - DELETE /api/v1/leave-requests/<leave-request-id>/: Delete a specific leave request.
 
 ### Sample Requests
-1. Create a new employee
+1. Retrieve all leave requests
    ```bash
       curl -X GET https://hrproject.onrender.com/api/v1/leave-requests \
       -H "Authorization: Bearer <access-token" \
 
-2. Retrieve all leave requests
+2. Create a new employee
    ```bash
       curl -X POST https://hrproject.onrender.com/api/v1/employees \
       -H "Authorization: Bearer <access-token" \
