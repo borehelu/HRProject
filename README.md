@@ -14,7 +14,7 @@ This REST API is designed to provide backend functionality for a Human Resource 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/borehelu/HRProject
 
 2. Install the dependencies:
    ```bash
@@ -46,11 +46,11 @@ To access protected endpoints, you need to obtain an access token by sending a P
 
 
 ### Employee Endpoints:
-- GET /api/v1/employees/ List all employees.
-- POST /api/v1/employees/: Create a new employee.
-- GET /api/v1/employees/<employee-id>/: Retrieve a specific employee.
-- PUT /api/v1/employees/<employee-id>/: Update a specific employee.
-- DELETE /api/v1/employees/<employee-id>/: Delete a specific employee.
+- GET /api/v1/employees List all employees.
+- POST /api/v1/employees Create a new employee.
+- GET /api/v1/employees/employee-id Retrieve a specific employee.
+- PUT /api/v1/employees/employee-id Update a specific employee.
+- DELETE /api/v1/employees/employee-id Delete a specific employee.
 
 ### Leave Types Endpoints
 - GET /api/v1/leave-types/: List all leave types.
