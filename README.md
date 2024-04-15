@@ -75,19 +75,16 @@ To access protected endpoints, you need to obtain an access token by sending a P
 
 ### Sample Requests
 1. Create a new employee
-```bash
-curl -X GET https://hrproject.onrender.com/api/v1/leave-requests \
--H "Authorization: Bearer <access-token" \
+   ```bash
+      curl -X GET https://hrproject.onrender.com/api/v1/leave-requests \
+      -H "Authorization: Bearer <access-token" \
 
-'
 2. Retrieve all leave requests
+   ```bash
+      curl -X POST https://hrproject.onrender.com/api/v1/employees \
+      -H "Authorization: Bearer <access-token" \
+      -d '{ "first_name": "Joh", "last_name": "Smith", "phone": "0722334606", "email": "smithjoh@gmail.com", "address": "Rongai, Kajiado", "role": "Principal Engineer", "date_of_birth": "01/10/1996", "gender": "M", "department": 2, "username": "smith", "password":"Smith@#2V"}'
 
-```bash
-curl -X POST https://hrproject.onrender.com/api/v1/employees \
--H "Authorization: Bearer <access-token" \
--d '{ "first_name": "Joh", "last_name": "Smith", "phone": "0722334606", "email": "smithjoh@gmail.com", "address": "Rongai, Kajiado", "role": "Principal Engineer", "date_of_birth": "01/10/1996", "gender": "M", "department": 2, "username": "smith", "password":"Smith@#2V"}'
-
-'
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
